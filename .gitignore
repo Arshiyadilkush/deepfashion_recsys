@@ -1,0 +1,38 @@
+﻿# Python
+__pycache__/
+*.pyc
+
+# Environments
+.env
+.venv/
+env/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (do not push dataset)
+data/DeepFashion/
+data/*.zip
+data/*.tar
+data/*.tgz
+
+# Large artifacts (use Git LFS or external storage)
+export/*.index
+export/*.faiss
+export/*.npy
+export/*.pt
+export/*.ckpt
+export/*.onnx
+export/*.parquet
+checkpoints/
+export/
+
+# Streamlit cache & UI
+.streamlit/
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
